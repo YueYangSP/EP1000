@@ -1,5 +1,6 @@
 html {height: 100%;}
 
+/*Font start*/
 /* latin */
 @font-face {
   font-family: 'Electrolize';
@@ -8,43 +9,48 @@ html {height: 100%;}
   src: url(https://fonts.gstatic.com/s/electrolize/v14/cIf5Ma1dtE0zSiGSiED7AXEBuI8.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/*Font end*/
 
+/*Body start*/
 body {
   margin: 0;
   height: 100%;
   background-color: #000000;
   font-family: Electrolize, sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   background-size: 400% 400%;
   }
+/*Body end*/
 
+/*hyperlink config start*/
 a {
   text-decoration: none;
   color: #c8c8c8;
 }
+/*hyperlink config end*/
 
 /*headings start*/
 h1{
   margin:0;
-  font-size: 250%;
+  font-size: 275%;
   color: #ffffff;
 }
 
 h2{
   margin:0;
-  font-size: 200%;
+  font-size: 225%;
   color: #c8c8c8;
 }
 
 h3{
   margin:0;
-  font-size: 150%;
+  font-size: 175%;
   color: #646464;
 }
 
 h4{
   margin:0;
-  font-size: 100%;
+  font-size: 125%;
   color: #969696;
 }
 
@@ -83,15 +89,26 @@ p{
 li{
   color: #999999;
 }
+/*Text colour for the site end*/
 
 
+/*list format start*/
+dd{
+  display: list-item;
+  list-style-type: "→";
+  padding-inline-start:1ch;
+}
+/*list format end*/
 
-/*navigation bar(pages) start*/
+
+/*navigation bar (pages) start*/
 ul{
   list-style: none;
 }
 
 ul.nav {
+  width:8%;
+  font-size: 80%;
   position: fixed;
   middle: 0;
   right: 0;
@@ -107,10 +124,35 @@ ul.nav > li:hover {
   background-color: #646464;
 }
 ul.nav > li > a {
-  color: #ffffff;
+  color: #ff6400;
   text-decoration: none;
 }
-/*navigation bar(pages) end*/
+/*navigation bar (pages) end*/
+
+
+/*navigation bar (project page) start*/
+ul.navproject {
+  width:8%;
+  font-size: 75%;
+  position: fixed;
+  middle: 0;
+  left: 0;
+  padding: 0px;
+  background-color: clear;
+  text-align: center;
+}
+ul.navproject > li {
+
+  padding: 5px;
+}
+ul.navproject > li:hover {
+  background-color: #646464;
+}
+ul.navproject > li > a {
+  color: #ffff00;
+  text-decoration: none;
+}
+/*navigation bar (project page) end*/
 
 
 /*image config start*/
@@ -138,6 +180,7 @@ th {
 
 /* FOOTER CODE ---DO NOT TOUCH--- */
 #footer {
+  text-indent: 7.5%;
   position: fixed;
   bottom: 0;
   width: 100%;
