@@ -106,7 +106,7 @@ ul{
   list-style: none;
 }
 
-ul.nav {
+ul.navmain {
   width:8%;
   font-size: 85%;
   position: fixed;
@@ -116,14 +116,14 @@ ul.nav {
   background-color: clear;
   text-align: center;
 }
-ul.nav > li {
+ul.navmain > li {
 
   padding: 10px;
 }
-ul.nav > li:hover {
+ul.navmain > li:hover {
   background-color: #646464;
 }
-ul.nav > li > a {
+ul.navmain > li > a {
   color: #ff6400;
   text-decoration: none;
 }
@@ -131,7 +131,7 @@ ul.nav > li > a {
 
 
 /*navigation bar (project page) start*/
-ul.navproject {
+ul.navsub {
   width:8%;
   font-size: 75%;
   position: fixed;
@@ -141,14 +141,14 @@ ul.navproject {
   background-color: clear;
   text-align: center;
 }
-ul.navproject > li {
+ul.navsub > li {
 
   padding: 5px;
 }
-ul.navproject > li:hover {
+ul.navsub > li:hover {
   background-color: #646464;
 }
-ul.navproject > li > a {
+ul.navsub > li > a {
   color: #ffff00;
   text-decoration: none;
 }
