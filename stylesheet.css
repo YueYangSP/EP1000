@@ -108,7 +108,7 @@ ul{
 
 ul.nav {
   width:8%;
-  font-size: 80%;
+  font-size: 85%;
   position: fixed;
   middle: 0;
   right: 0;
@@ -118,7 +118,7 @@ ul.nav {
 }
 ul.nav > li {
 
-  padding: 10px 20px;
+  padding: 10px;
 }
 ul.nav > li:hover {
   background-color: #646464;
