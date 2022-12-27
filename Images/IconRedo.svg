@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="3200"
+   height="3200"
+   viewBox="0 0 3200 3200"
+   sodipodi:docname="icon redo.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <rect
+       x="-981.25"
+       y="75"
+       width="4043.75"
+       height="4150"
+       id="rect19539" />
+    <rect
+       x="-565.83035"
+       y="-256.15293"
+       width="2045.4002"
+       height="3077.6583"
+       id="rect19533" />
+    <rect
+       x="657.58662"
+       y="741.69654"
+       width="1995.6989"
+       height="1796.8937"
+       id="rect19473" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.22627417"
+     inkscape:cx="1518.0699"
+     inkscape:cy="1624.1359"
+     inkscape:window-width="1718"
+     inkscape:window-height="1368"
+     inkscape:window-x="1706"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g8">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6348" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g8">
+    <circle
+       style="display:inline;fill:#969696;fill-opacity:1"
+       id="path233"
+       cx="1600.4099"
+       cy="1600"
+       r="1600"
+       inkscape:label="circle grey" />
+    <circle
+       style="display:inline;fill:#323232;fill-opacity:1;stroke-width:3.00094"
+       id="path19622"
+       cx="1600"
+       cy="1600"
+       r="1500" />
+    <text
+       xml:space="preserve"
+       id="text19537"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:extra-condensed;font-size:2666.67px;font-family:Algerian;-inkscape-font-specification:'Algerian, Extra-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect19539);display:inline;fill:#ffff00;fill-opacity:1"
+       transform="matrix(1.0026097,0,0,1.0026097,1646.8839,175.50735)"><tspan
+         x="-981.25"
+         y="2538.6247"
+         id="tspan863">Y</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="letter"
+     style="display:inline" />
+</svg>

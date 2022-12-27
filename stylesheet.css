@@ -98,6 +98,7 @@ h6{
 }
 /*headings end*/
 
+/*content start*/
 #container { /*original width 80%*/
   background-color: #191919;
   width: 80%;
@@ -114,7 +115,7 @@ h6{
   padding: 10px;
   padding-bottom: 2.5rem;    /* extra space for footer's height */
 }
-
+/*content end*/
 
 /*Text Colour for the site*/
 p{
@@ -131,12 +132,16 @@ li{
 }
 /*Text colour for the site end*/
 
+/*list format start*/
+ul{
+  list-style: none;
+}
+
 <ul class="list1">{
     list-style: none;
     padding-left: 5%;
 }
 
-/*list format start*/
 dd{
   display: list-item;
   list-style-type: "→";
@@ -144,39 +149,7 @@ dd{
 }
 /*list format end*/
 
-.btn-group button {
-  background-color: #04AA6D; /* Green background */
-  border: 1px solid green; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-   /* Set a width if needed */
-  display: block; /* Make the buttons appear below each other */
-  font-family: Lato, sans-serif;
-  width:9%;
-  font-size: 80%;
-  position: fixed;
-  left: 0;
-  line-height: 50px;
-}
-
-.btn-group button:not(:last-child) {
-  border-bottom: none;
-  /* Prevent double borders */
-}
-
-/* Add a background color on hover */
-.btn-group button:hover {
-  background-color: #3e8e41;
-}
-
-
-
 /*navigation bar (pages) start*/
-ul{
-  list-style: none;
-}
-
 ul.navmain {
   font-family: Lato, sans-serif;
   width:9%;
@@ -186,22 +159,23 @@ ul.navmain {
   padding: 0px;
   background-color: clear;
   text-align: center;
+  text-decoration: none;
+
 }
 ul.navmain > li {
-
   padding: 10px;
 }
 ul.navmain > li:hover {
   background-color: #646464;
 }
 ul.navmain > li > a {
-  color: #ff6400;
+  color: #ff9600;
   text-decoration: none;
 }
 /*navigation bar (pages) end*/
 
 
-/*navigation bar (sub) start*/
+/*navigation bar (sub-pages) start*/
 ul.navsub {
   font-family: Lato, sans-serif;
   width:8%;
@@ -224,7 +198,7 @@ ul.navsub > li > a {
   color: #ffff00;
   text-decoration: none;
 }
-/*navigation bar (sub) end*/
+/*navigation bar (sub-pages) end*/
 
 
 /*image config start*/
