@@ -1,0 +1,54 @@
+main page ep1000 title
+
+great link: https://fonts.googleapis.com/css?family=Source+Code+Pro
+
+other pages:
+-introduction with selfie, live in sengkang town, dare year 3
+photo and info side by side in table
+
+-1/2 paragraph on why choose this module and what expect to learn
+
+-project page of what i want to build, prototype/ cardboard prototype,
+sites researched on similar project, what going to do differently
+
+images/reference documents placed in own folder, not in HTML code
+
+https://developers.google.com/fonts/docs/getting_started
+
+link below is for removing background in GIMP
+https://www.youtube.com/watch?v=C0tg2mRroSY
+
+how to embed ppt into site
+https://support.microsoft.com/en-us/office/embed-a-presentation-in-a-web-page-or-blog-19668a1d-2299-4af3-91e1-ae57af723a60#:~:text=Open%20your%20presentation%20in%20PowerPoint,Share%2C%20and%20then%20click%20Embed.&text=In%20the%20Embed%20box%2C%20under,Copy%2C%20and%20then%20click%20Close.
+
+fusion 360 UI
+https://www.youtube.com/watch?v=WKb3mRkgTwg
+
+lesson 14 Nov 2022
+https://rdorville.github.io/ep1000digfab/04_CAD/ep1000_3dmodel.pdf
+
+how to embed fusion 360 3d model into website
+https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-embed-a-viewer-of-a-Fusion-360-design-into-a-website.html
+
+Laser Cutting Bending Pattern
+https://www.google.com/search?q=laser+cutting+bending+pattern&oq=laser+cutting+bending+pattern&aqs=chrome..69i57j0i22i30j0i390l4.5561j0j7&sourceid=chrome&ie=UTF-8
+
+Remember to embed powerpoint in to web dev borrowed book section
+
+
+Please refer to the organized checklist:
+
+1)   Book Fablab Safety in FLMS (under EP1000 Schedule) and Pass the Quiz in Brightspace (>80%)
+2)   Creation of Website in Github using HTML & CSS (CA1) *Late Submission will be penalized.
+3)   2D Graphics - remove background of your about me page profile picture
+4)   2D Graphics - creation of your logo / initials using vectors and make it into a vector art
+5)   3D CAD - Exercise 1 & 2
+6)   3D CAD - Exercises - (Nametag Design), (Lego Brick Design), (Extrude & Plane Pyramid Design), (Mug Design), (Hex Nut Design)
+7)   3D Printing - Chess Piece Design
+8)   Book Fablab 3D Printing in FLMS (under EP1000 Schedule) and Pass the Quiz in Brightspace (>80%)
+9)   3D Printing - Book machine for 3D printing your chess piece design
+10)  3D Printing - 3D Printing Assignment (handphone stand) Book machine for 3D printing of your handphone stand design and submit on 2nd of Dec 1700hr, place your design on my table in T1442. *Late Submission will be penalized.
+11)  2D Laser Cutting - Exercise 1 - Nametag & Exercise 2 - Laptop Stand
+12)  Book Fablab Laser Cutting in FLMS (under EP1000 Schedule) and Pass the Quiz in Brightspace (>80%)
+13)  *2D Laser Cutting - Laser Cutting Evaluation (For students that have not gone through the F2F Laser Cutting Evaluation will need to be present on 5th of Dec to attend the evaluation. Venue will be at block T11C and the evaluation will start at 2pm and ends at 4.30pm. Students that have already gone through this evaluation will not need to attend again, thus, no need to come for lesson and continue to work & update your website.)
+14)  2D Laser Cutting - 2D Laser Cutting Assignment (accessories box) Book machine for 2d laser cutting of your accessories box design and submit on 9th of Jan 2023 1700hr, during class lesson. *Late Submission will be penalized.
