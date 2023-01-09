@@ -38,17 +38,17 @@ Remember to embed powerpoint in to web dev borrowed book section
 
 Please refer to the organized checklist:
 
-1)   Book Fablab Safety in FLMS (under EP1000 Schedule) and Pass the Quiz in Brightspace (>80%)
-2)   Creation of Website in Github using HTML & CSS (CA1) *Late Submission will be penalized.
-3)   2D Graphics - remove background of your about me page profile picture
-4)   2D Graphics - creation of your logo / initials using vectors and make it into a vector art
-5)   3D CAD - Exercise 1 & 2
-6)   3D CAD - Exercises - (Nametag Design), (Lego Brick Design), (Extrude & Plane Pyramid Design), (Mug Design), (Hex Nut Design)
-7)   3D Printing - Chess Piece Design
-8)   Book Fablab 3D Printing in FLMS (under EP1000 Schedule) and Pass the Quiz in Brightspace (>80%)
-9)   3D Printing - Book machine for 3D printing your chess piece design
-10)  3D Printing - 3D Printing Assignment (handphone stand) Book machine for 3D printing of your handphone stand design and submit on 2nd of Dec 1700hr, place your design on my table in T1442. *Late Submission will be penalized.
-11)  2D Laser Cutting - Exercise 1 - Nametag & Exercise 2 - Laptop Stand
-12)  Book Fablab Laser Cutting in FLMS (under EP1000 Schedule) and Pass the Quiz in Brightspace (>80%)
-13)  *2D Laser Cutting - Laser Cutting Evaluation (For students that have not gone through the F2F Laser Cutting Evaluation will need to be present on 5th of Dec to attend the evaluation. Venue will be at block T11C and the evaluation will start at 2pm and ends at 4.30pm. Students that have already gone through this evaluation will not need to attend again, thus, no need to come for lesson and continue to work & update your website.)
+1 done)   Book Fablab Safety in FLMS (under EP1000 Schedule) and Pass the Quiz in Brightspace (>80%)
+2 soon)   Creation of Website in Github using HTML & CSS (CA1) *Late Submission will be penalized.
+3 done)   2D Graphics - remove background of your about me page profile picture
+4 done)   2D Graphics - creation of your logo / initials using vectors and make it into a vector art
+5 done)   3D CAD - Exercise 1 & 2
+6 done)   3D CAD - Exercises - (Nametag Design), (Lego Brick Design), (Extrude & Plane Pyramid Design), (Mug Design), (Hex Nut Design)
+7 done)   3D Printing - Chess Piece Design
+8 done)   Book Fablab 3D Printing in FLMS (under EP1000 Schedule) and Pass the Quiz in Brightspace (>80%)
+9 done)   3D Printing - Book machine for 3D printing your chess piece design
+10 done)  3D Printing - 3D Printing Assignment (handphone stand) Book machine for 3D printing of your handphone stand design and submit on 2nd of Dec 1700hr, place your design on my table in T1442. *Late Submission will be penalized.
+11 todo)  2D Laser Cutting - Exercise 1 - Nametag & Exercise 2 - Laptop Stand
+12 done)  Book Fablab Laser Cutting in FLMS (under EP1000 Schedule) and Pass the Quiz in Brightspace (>80%)
+13 done)  *2D Laser Cutting - Laser Cutting Evaluation (For students that have not gone through the F2F Laser Cutting Evaluation will need to be present on 5th of Dec to attend the evaluation. Venue will be at block T11C and the evaluation will start at 2pm and ends at 4.30pm. Students that have already gone through this evaluation will not need to attend again, thus, no need to come for lesson and continue to work & update your website.)
 14)  2D Laser Cutting - 2D Laser Cutting Assignment (accessories box) Book machine for 2d laser cutting of your accessories box design and submit on 9th of Jan 2023 1700hr, during class lesson. *Late Submission will be penalized.
