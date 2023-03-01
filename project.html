@@ -34,8 +34,8 @@
               <li><a href="#ideation">Ideation</a></li>
               <li><a href="#MarketR">Market Research</a></li>
               <li><a href="#1Design">Initial Design</a></li>
-              <li><a href="#2Design">Refined Design</a></li>
-              <li><a href="#Production">Production</a></li>
+              <li><a href="#2Design"><del>Refined Design</del></a></li>
+              <li><a href="#Production"><del>Production</del></a></li>
               <li><a href="#Showcase">Showcase</a></li>
             </ul>
         </div>
@@ -82,32 +82,164 @@
             <br>
             <a id="MarketR"></a>
             <h3>Part 2- Market Research</h3>
-            <p></p>
+            <p>
+              <img src="Images/EXMP1.png">
+              <img src="Images/EXMP 2.jpg">
+            </p>
             <br>
             <hr>
             <br>
             <a id="1Design"></a>
             <h3>Part 3- Initial Design</h3>
+            <p>
+              NeoPixel Housing, it is used to contain, protect and direct the neopixel lights.
+              <br>
+              The connecting arms are also included in this file.
+            </p>
+            <iframe src="https://ichat2788.autodesk360.com/shares/public/SH9285eQTcf875d3c539e56b8919562f0e57?mode=embed" width="100%" height="80%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+            <p>
+              Arduino Housing, also the base.
+              <hr>
+              The 2 knobs are potentiometers, meant to be used in contolling the hue and brightness respectively, from left to right.
+              <hr>
+              The PIR sensor is meant to be turning on 2 yellow leds inside the housing when motion is sensed, making it easier to operate in low visibility conditions, where it is meant to be used.
+            </p>
+            <iframe src="https://ichat2788.autodesk360.com/shares/public/SH9285eQTcf875d3c539e1f5aa33bb2acc06?mode=embed" width="100%" height="80%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
             <br>
             <hr>
             <br>
             <a id="proto"></a>
             <h3>Part 4- Prototyping</h3>
+            <p>
+            Laser cutting the plywood for the final project
+            <img src="Images/FPLSC1.jpg">
+            <br>
+            <br>
+            <br>
+            Finished first round of laser cutting, the rest of the laser cut materials are not shown
+            <img src="Images/FPLSC2.jpg">
+            <br>
+            <br>
+            <br>
+            Internals of the base, where the arduino and most of the wiring is housed.
+            <img src="Images/FPI.jpg">
+            <br>
+            <br>
+            <br>
+            The neopixel housing, attached to the arm to allow for positioning of lights.
+            <img src="Images/FPLH.jpg">
+            <br>
+            <br>
+            <br>
+            Code for the arduino is as shown below:
+            <br>
+            <br>
+            #include &#60;Adafruit_NeoPixel.h&#62;<br>
+
+#define LED_PIN 3 <br>
+#define LED_COUNT 16 <br>
+#define pirLed 4 <br>
+<br>
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);<br>
+<br>
+int sensorPin = A0; //brightness pin<br>
+int GP = A2; //green hue pin<br>
+int sensorValue = 0;<br>
+int colorValue = 0;<br>
+int inputPin  = 7; //PIR pin<br>
+int pirState = LOW;             // we start, assuming no motion detected<br>
+int pirval = 0;                    // variable for reading the pin status<br>
+<br>
+void setup() {<br>
+<br>
+pinMode(3, INPUT_PULLUP);<br>
+strip.begin();<br>
+strip.show();<br>
+  pinMode(pirLed, OUTPUT);      // declare LED as output<br>
+  pinMode(inputPin, INPUT);     // declare sensor as input<br>
+<br>
+}<br>
+<br>
+void loop() {<br>
+<br>
+ pirval = digitalRead(inputPin);  // read input value<br>
+  if (pirval == HIGH) {            // check if the input is HIGH<br>
+    digitalWrite(pirLed, HIGH);  // turn LED ON<br>
+    if (pirState == LOW) {<br>
+      // we have just turned on<br>
+      Serial.println("Motion detected!");<br>
+      // We only want to print on the output change, not state<br>
+      pirState = HIGH;<br>
+    }<br>
+  } else {<br>
+    digitalWrite(pirLed, LOW); // turn LED OFF<br>
+    if (pirState == HIGH){<br>
+      // we have just turned of<br>
+      Serial.println("Motion ended!");<br>
+      // We only want to print on the output change, not state<br>
+      pirState = LOW;<br>
+    }<br>
+  }<br>
+<br>
+<br>
+byte red = 255;<br>
+byte green = 0;<br>
+byte blue = 0;<br>
+<br>
+sensorValue = analogRead(sensorPin);<br>
+<br>
+green = analogRead(GP)/4.016;<br>
+<br>
+<br>
+<br>
+float brightness = sensorValue / 1024.0;<br>
+<br>
+    for (int i = 0; i&#60;strip.numPixels(); i++){<br>
+    strip.setPixelColor(i, red * brightness, green * brightness, blue * brightness);<br>
+  }<br>
+  delay(50);<br>
+  strip.show();<br>
+}<br>
+<br>
+<br>
+This is a online copy of the electronics of the product:
+<iframe width="100%" height="80%" src="https://www.tinkercad.com/embed/gOb1chcSlb0?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+            </p>
             <br>
             <hr>
             <br>
             <a id="2Design"></a>
-            <h3>Part 5- Refined Design</h3>
+            <h3>Part 5- Refined Design(cancelled)</h3>
+            <p>
+              Canned Due to lack of time, project was started late and i have 4 different exams
+            </p>
             <br>
             <hr>
             <br>
             <a id="Production"></a>
-            <h3>Part 6- Production</h3>
+            <h3>Part 6- Production(cancelled)</h3>
+            <p>
+              Canned Due to lack of time, project was started late and i have 4 different exams
+            </p>
             <br>
             <hr>
             <br>
             <a id="Showcase"></a>
             <h3>Part 7- Showcase</h3>
+            <p>
+            View of the product from above:
+            <img src="Images/VFA.jpg">
+            <br>
+            <br>
+            <br>
+            View of the neopixel in operation:
+            <img src="Images/VFB.jpg">
+            <br>
+            <br>
+            <br>
+            Poster presenting the product:
+            <img src="Images/EP1000 Poster.jpg">
+            </p>
             <br>
             <hr>
             <br>
